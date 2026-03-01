@@ -58,3 +58,6 @@ User → FastAPI → RAG Engine → FAISS Index
 pip install -r requirements.txt
 python backend/rag/ingest.py
 python -m uvicorn backend.main:app --reload
+
+Open browser:
+http://127.0.0.1:8000/docs
